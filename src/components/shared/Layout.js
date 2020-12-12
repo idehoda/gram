@@ -3,13 +3,13 @@ import { useLayoutStyles } from "../../styles";
 import Navbar from '../shared/Navbar';
 import SEO from '../shared/Seo';
 
-function Layout({ children, title, marginTop = 60 }) {
+function Layout({ children, title, marginTop = 60, minimalNavBar = false }) {
   const classes = useLayoutStyles();
 
   return (
       <section className={classes.section}>
         <SEO title={title}/>
-        <Navbar />
+        <Navbar minimalNavBar={minimalNavBar} />
         <main className={classes.main} style={{marginTop}}>
           <section className={classes.childrenWrapper}>
             <div className={classes.children}>
