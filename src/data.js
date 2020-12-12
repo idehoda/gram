@@ -26,7 +26,7 @@ export const defaultPost = {
   caption: `<span class="">Do you know the 10 JavaScript concepts you need to learn React? 🤔⚛️👇<br>•<br>•<br>👉 Get the FREE cheatsheet to learn them now: bit.ly/10-js-tips 🔥</span>`,
   user: defaultUser,
   media:
-    "https://neilpatel.com/wp-content/uploads/2017/08/instagram-1.jpg",
+    "https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ",
   comments: [],
   created_at: "2020-02-28T03:08:14.522421+00:00"
 };
@@ -38,7 +38,7 @@ export function getDefaultPost() {
     caption: `<span class="">Do you know the 10 JavaScript concepts you need to learn React? 🤔⚛️👇<br>•<br>•<br>👉 Get the FREE cheatsheet to learn them now: bit.ly/10-js-tips 🔥</span>`,
     user: defaultUser,
     media:
-      "https://neilpatel.com/wp-content/uploads/2017/08/instagram-1.jpg",
+      "https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ",
     comments: [],
     created_at: "2020-02-28T03:08:14.522421+00:00"
   };

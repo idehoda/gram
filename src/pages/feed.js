@@ -19,9 +19,9 @@ function FeedPage() {
   return <Layout>
     <div className={classes.container}>
       <div>
-        {Array.from({ length: 5 }, () => getDefaultPost()).map(post => {
+        {Array.from({ length: 5 }, () => getDefaultPost()).map((post, index) => {
           return(
-          <FeedPost key={post.id} post={post}/>
+          <FeedPost key={post.id} post={post} index={index}/>
         )})}
       </div>
 
