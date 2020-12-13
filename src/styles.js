@@ -1126,7 +1126,8 @@ export const useFeedPostSkeletonStyles = makeStyles({
     backgroundColor: "rgba(var(--c90,239,239,239),1)"
   },
   secondaryTextSkeleton: {
-    backgroundColor: "rgba(var(--c90,239,239,239),1)",
+    backgroundColor: "red",
+    // backgroundColor: "rgba(var(--c90,239,239,239),1)",
     flexGrow: "0",
     height: "10px",
     width: "100px"

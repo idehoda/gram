@@ -2,10 +2,8 @@ import React from "react";
 import { useSignUpPageStyles } from "../styles";
 import { LoginWithFacebook } from './login';
 import SEO from '../components/shared/Seo';
-import { Card, CardHeader, TextField, Button, Typography } from '@material-ui/core';
+import { Card, TextField, Button, Typography } from '@material-ui/core';
 import { Link } from 'react-router-dom'
-import FacebookIconBlue from '../images/facebook-icon-blue.svg';
-import FacebookIconWhite from '../images/facebook-icon-white.png';
 
 function SignUpPage() {
   const classes = useSignUpPageStyles();

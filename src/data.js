@@ -5,7 +5,7 @@ export const defaultUser = {
   username: "username",
   name: "name",
   profile_image:
-    "https://instagram.com/static/images/anonymousUser.jpg/23e7b3b2a737.jpg"
+    "https://vignette.wikia.nocookie.net/sluzacza/images/9/90/Serious-sam-bomb-logo.png/revision/latest?cb=20130916142330&path-prefix=pl"
   // profile_image:
   // "https://instagram.com/static/images/anonymousUser.jpg/23e7b3b2a737.jpg"
 };
@@ -16,7 +16,7 @@ export function getDefaultUser() {
     username: "username",
     name: "name",
     profile_image:
-      "https://instagram.com/static/images/anonymousUser.jpg/23e7b3b2a737.jpg"
+      "https://vignette.wikia.nocookie.net/sluzacza/images/9/90/Serious-sam-bomb-logo.png/revision/latest?cb=20130916142330&path-prefix=pl"
   };
 }
 
@@ -65,7 +65,7 @@ export const defaultCurrentUser = {
   username: "me",
   name: "myself",
   profile_image:
-    "https://instagram.com/static/images/anonymousUser.jpg/23e7b3b2a737.jpg",
+    "https://vignette.wikia.nocookie.net/sluzacza/images/9/90/Serious-sam-bomb-logo.png/revision/latest?cb=20130916142330&path-prefix=pl",
   website: "https://react12.io",
   email: "me@gmail.com",
   bio: "This is my bio",

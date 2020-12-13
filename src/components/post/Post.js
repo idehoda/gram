@@ -4,14 +4,19 @@ import UserCard from "../shared/UserCard";
 import { Typography, Button, Divider, Hidden, TextField } from '@material-ui/core'
 import { MoreIcon, CommentIcon, ShareIcon, UnlikeIcon, LikeIcon, SaveIcon, RemoveIcon } from '../../icons';
 import { Link } from 'react-router-dom';
-import FollowSuggestions from '../shared/FollowSuggestions';
 import OptionsDialog from '../shared/OptionsDialog';
 import { defaultPost } from '../../data';
+import PostSkeleton from './PostSkeleton';
 
 function Post() {
   const classes = usePostStyles();
   const [ showOptionsDialog, setOptionsDialog ] = React.useState(false);
   const { media, id, likes, user, caption, comments } = defaultPost;
+
+  const [loading, setLoading] = React.useState(true);
+  setTimeout(() => setLoading(false), 2000);
+  if (loading) return <PostSkeleton />
+
   return (
   <div className={classes.postContainer}>
     <article className={classes.article}>
