@@ -74,7 +74,7 @@ function ProfilePosts({ user, isOwner }) {
   const classes = useProfileTabsStyles()
   if (user.posts.length === 0) {
     return (
-      <section className={classes.profilePostSection}>
+      <section className={classes.profilePostsSection}>
         <div className={classes.noContent}>
           <div className={classes.uploadPhotoIcon} />
           <Typography variant="h3">
